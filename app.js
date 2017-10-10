@@ -12,7 +12,7 @@ var nav = [{
     Text: 'Author'}
 ];
 
-var bookRouter = require('./src/Routes/bookRoutes')(nav)
+var bookRouter = require('./src/Routes/bookRoutes')(nav);
 
 app.use(express.static('public'));
 
